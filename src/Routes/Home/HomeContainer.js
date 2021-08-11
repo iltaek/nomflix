@@ -1,6 +1,6 @@
-import React from "react";
-import HomePresenter from "Routes/Home/HomePresenter";
-import { movieApi } from "api";
+import React from 'react';
+import HomePresenter from 'Routes/Home/HomePresenter';
+import { movieApi } from 'api';
 
 export default class extends React.Component {
   state = {

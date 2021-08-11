@@ -1,3 +1,3 @@
-import DetailContainer from "Routes/Detail/DetailContainer";
+import DetailContainer from 'Routes/Detail/DetailContainer';
 
 export default DetailContainer;

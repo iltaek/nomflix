@@ -1,6 +1,6 @@
-import React from "react";
-import DetailPresenter from "Routes/Detail/DetailPresenter";
-import { movieApi, tvApi } from "../../api";
+import React from 'react';
+import DetailPresenter from 'Routes/Detail/DetailPresenter';
+import { movieApi, tvApi } from 'api';
 
 export default class extends React.Component {
   constructor(props) {
@@ -12,7 +12,7 @@ export default class extends React.Component {
       result: null,
       loading: true,
       error: null,
-      isMovie: pathname.startsWith("/movie/"),
+      isMovie: pathname.startsWith('/movie/'),
     };
   }
 
@@ -26,7 +26,7 @@ export default class extends React.Component {
     const { isMovie } = this.state;
     const parsedId = parseInt(id);
     if (isNaN(parsedId)) {
-      return push("/");
+      return push('/');
     }
 
     let result;

@@ -1,6 +1,6 @@
-import React from "react";
-import TVPresenter from "Routes/TV/TVPresenter";
-import { tvApi } from "api";
+import React from 'react';
+import TVPresenter from 'Routes/TV/TVPresenter';
+import { tvApi } from 'api';
 
 export default class extends React.Component {
   state = {
